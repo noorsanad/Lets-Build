@@ -58,7 +58,7 @@
           </p>
 
           <!-- this is a button -->
-          <button onclick="">Hello!</button>
+          <button onclick="sendHi()">Hello!</button>
         </div>
       </section>
 
@@ -127,7 +127,7 @@
           </div>
 
           <div class="input-group">
-            <button>Submit</button>
+            <button onclick="sendHello()">Submit</button>
           </div>
         </form>
       </section>
@@ -135,5 +135,13 @@
 
     <!-- footer tag -->
     <footer>Copyright, made with ❤️ By <span>yourname</span>.</footer>
+
+    <script>
+      function sendHi() {
+        alert("Hi");
+      }
+    </script>
+
+    <script src="./js/myScript.js"></script>
   </body>
 </html>
