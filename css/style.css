@@ -1,0 +1,85 @@
+/* this is the body */
+body {
+  margin: 0;
+}
+
+/* all anchors in the page */
+a {
+  color: black;
+}
+/* anchor on hover */
+a:hover {
+  color: darkgray;
+}
+
+.center {
+  text-align: center;
+}
+
+h2 {
+  text-shadow: 0 0 5px #ff8800;
+  margin-top: 0;
+}
+
+/* the header at the top of the page */
+header {
+  background-color: goldenrod;
+  padding: 8px;
+  font-weight: bold;
+}
+
+/* nav container */
+nav {
+  /* this will change the display to flex so I can use the other features of flex. */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* all img inside of nav */
+nav img {
+  width: 128px;
+}
+
+/* all list items inside of nav */
+nav ul li {
+  display: inline;
+  margin-left: 16px;
+}
+
+#first {
+  background-image: url(../images/main.png);
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  color: white;
+}
+
+.overlay {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#work {
+  background-color: #fafafa;
+  padding: 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card {
+  width: 25%;
+  padding: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  border-radius: 10px;
+}
